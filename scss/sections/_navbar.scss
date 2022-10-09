@@ -8,9 +8,13 @@
         padding: 0 0.7rem;
 
         a{
-            color: $white !important;
+            color: $white;
+            padding: 0 0.7rem;
             text-transform: capitalize;
             font-weight: 600; 
+        }
+        &:hover{
+            color: $white;
         }
     }
 }
